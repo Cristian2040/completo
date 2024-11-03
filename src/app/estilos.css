@@ -1,0 +1,107 @@
+/* Fuente y tamaño de fuente global */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #4B0082; /* Fondo morado oscuro */
+}
+
+/* Contenedor general */
+.container {
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 20px 60px rgba(0, 255, 255, 0.5); /* Sombra azul celeste */
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Estilo de Título */
+.titulo {
+    font-size: 2em;
+    color: #ffffff; /* Texto blanco */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilo de Descripción */
+.descripcion {
+    font-size: 1.1em;
+    color: #f1f1f1; /* Color gris claro */
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333333;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezado de Tabla */
+.table .table-header {
+    background-color: #007bff; /* Azul celeste */
+    color: #ffffff; /* Color blanco para el texto */
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #007bff; /* Bordes azul celeste */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Celdas de datos de Tabla */
+.table .table-data {
+    padding: 10px;
+    border: 1px solid #007bff; /* Bordes azul celeste */
+    text-align: center;
+    color: #ffffff; /* Color blanco para el texto */
+    font-weight: lighter;
+}
+
+.table-data:nth-child(even) {
+    background-color: #292929;
+}
+.table-data:nth-child(odd) {
+    background-color: #333333;
+}
+
+/* Estilo de enlaces */
+.link {
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #00ffff; /* Azul celeste al pasar el mouse */
+    text-decoration: underline;
+}
+
+/* Botón personalizado */
+.btn-custom {
+    height: 60px;
+    background-color: #007bff; /* Azul celeste */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #00bfff; /* Azul celeste más claro al pasar el mouse */
+}
